@@ -1,0 +1,18 @@
+{
+  "name": "qrkita-pembuat-kode-qr",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "test": "node --test tests/js/*.test.js"
+  },
+  "dependencies": {
+    "qr": "^0.5.4"
+  },
+  "devDependencies": {
+    "jsqr": "^1.4.0",
+    "laravel-vite-plugin": "^3.1",
+    "vite": "^8.0.0"
+  }
+}

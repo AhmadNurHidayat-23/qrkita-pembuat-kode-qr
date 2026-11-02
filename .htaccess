@@ -1,0 +1,3 @@
+Options -Indexes
+# Hanya direktori public yang boleh disajikan oleh Apache.
+Require all denied
